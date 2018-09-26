@@ -1,0 +1,146 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Auto Generated Documentation &#8212; salty 0.1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Welcome to salty’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-salty.salty">
+<span id="auto-generated-documentation"></span><h1>Auto Generated Documentation<a class="headerlink" href="#module-salty.salty" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="salty.salty.list_images">
+<code class="descclassname">salty.salty.</code><code class="descname">list_images</code><span class="sig-paren">(</span><em>folder</em><span class="sig-paren">)</span><a class="headerlink" href="#salty.salty.list_images" title="Permalink to this definition">¶</a></dt>
+<dd><p>List the images in a folder.
+Returns a list of image names (without file extension).</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="salty.salty.load_depths_csv">
+<code class="descclassname">salty.salty.</code><code class="descname">load_depths_csv</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#salty.salty.load_depths_csv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loads the depth information of each seismic image as a data frame.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="salty.salty.load_img">
+<code class="descclassname">salty.salty.</code><code class="descname">load_img</code><span class="sig-paren">(</span><em>filename</em><span class="sig-paren">)</span><a class="headerlink" href="#salty.salty.load_img" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loads the image from the <cite>filename</cite> as a numpy array.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="salty.salty.load_test_img">
+<code class="descclassname">salty.salty.</code><code class="descname">load_test_img</code><span class="sig-paren">(</span><em>img_id</em><span class="sig-paren">)</span><a class="headerlink" href="#salty.salty.load_test_img" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the matrix representation of the test image given the id.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="salty.salty.load_train_csv">
+<code class="descclassname">salty.salty.</code><code class="descname">load_train_csv</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#salty.salty.load_train_csv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loads the run-length encodings of the masks of the 
+training data as a pandas data frame.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="salty.salty.load_train_img">
+<code class="descclassname">salty.salty.</code><code class="descname">load_train_img</code><span class="sig-paren">(</span><em>img_id</em><span class="sig-paren">)</span><a class="headerlink" href="#salty.salty.load_train_img" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the matrix representation of the train image given the id.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="salty.salty.load_train_mask">
+<code class="descclassname">salty.salty.</code><code class="descname">load_train_mask</code><span class="sig-paren">(</span><em>img_id</em><span class="sig-paren">)</span><a class="headerlink" href="#salty.salty.load_train_mask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the matrix representation of the training mask image given the id.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="salty.salty.plot">
+<code class="descclassname">salty.salty.</code><code class="descname">plot</code><span class="sig-paren">(</span><em>img</em><span class="sig-paren">)</span><a class="headerlink" href="#salty.salty.plot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plots a grayscaled image of the 2d array <cite>img</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="salty.salty.plot_overlay">
+<code class="descclassname">salty.salty.</code><code class="descname">plot_overlay</code><span class="sig-paren">(</span><em>img</em>, <em>overlay</em><span class="sig-paren">)</span><a class="headerlink" href="#salty.salty.plot_overlay" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plots a grayscaled image of the 2d array <cite>img</cite> and
+overlays this with a partly transparent image.</p>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to salty’s documentation!</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/code.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, Jomar Sastrillo.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/code.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
